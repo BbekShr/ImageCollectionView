@@ -12,8 +12,6 @@ class Cell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
     
-    
-    
     override var bounds: CGRect {
         didSet {
             self.layoutIfNeeded()
@@ -34,7 +32,7 @@ class Cell: UICollectionViewCell {
     }
     
     func setCircularImageView() {
-        self.imageView.layer.cornerRadius = CGFloat(roundf(Float(self.imageView.frame.size.width / 2.0)))
+        self.imageView.layer.cornerRadius = CGFloat(roundf(Float(self.imageView.frame.size.width / 3.0)))
     }
     
     

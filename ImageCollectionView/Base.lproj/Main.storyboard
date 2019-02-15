@@ -47,10 +47,10 @@
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="AaJ-i4-wH9" firstAttribute="leading" secondItem="Qgm-lE-h9I" secondAttribute="leading" id="AhD-jc-tZm"/>
-                                            <constraint firstItem="AaJ-i4-wH9" firstAttribute="top" secondItem="Qgm-lE-h9I" secondAttribute="top" id="glv-Nc-j3a"/>
-                                            <constraint firstAttribute="bottom" secondItem="AaJ-i4-wH9" secondAttribute="bottom" id="jHP-rU-zgw"/>
-                                            <constraint firstAttribute="trailing" secondItem="AaJ-i4-wH9" secondAttribute="trailing" id="jLA-ej-o4b"/>
+                                            <constraint firstItem="AaJ-i4-wH9" firstAttribute="leading" secondItem="Qgm-lE-h9I" secondAttribute="leading" id="7sv-iJ-lVu"/>
+                                            <constraint firstItem="AaJ-i4-wH9" firstAttribute="top" secondItem="Qgm-lE-h9I" secondAttribute="top" id="DIS-S7-KWM"/>
+                                            <constraint firstAttribute="bottom" secondItem="AaJ-i4-wH9" secondAttribute="bottom" id="Gsg-uf-toC"/>
+                                            <constraint firstAttribute="trailing" secondItem="AaJ-i4-wH9" secondAttribute="trailing" id="xlt-PT-Mds"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="imageView" destination="AaJ-i4-wH9" id="hrg-cU-S09"/>
@@ -62,11 +62,11 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Pj1-qA-5qF"/>
                                 </connections>
                             </collectionView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="wpI-qY-mrW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wpI-qY-mrW">
                                 <rect key="frame" x="0.0" y="256" width="375" height="441"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="wpI-qY-mrW" secondAttribute="bottom" constant="-30" id="8ya-vD-K8Y"/>
                             <constraint firstItem="rAp-Bu-55e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jb1-jX-S6P"/>
@@ -78,6 +78,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageHolder" destination="wpI-qY-mrW" id="hsN-5I-guW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
