@@ -12,12 +12,6 @@ class Cell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
     
-    override var bounds: CGRect {
-        didSet {
-            self.layoutIfNeeded()
-        }
-    }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         
