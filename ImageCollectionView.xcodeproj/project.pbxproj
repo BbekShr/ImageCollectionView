@@ -13,6 +13,7 @@
 		424919852216636400EB027C /* ImageCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 424919832216636400EB027C /* ImageCollectionView.xcdatamodeld */; };
 		424919872216636500EB027C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424919862216636500EB027C /* Assets.xcassets */; };
 		4249198A2216636500EB027C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424919882216636500EB027C /* LaunchScreen.storyboard */; };
+		424919922216665700EB027C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424919912216665700EB027C /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		424919862216636500EB027C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		424919892216636500EB027C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4249198B2216636500EB027C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424919912216665700EB027C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4249197C2216636400EB027C /* AppDelegate.swift */,
 				4249197E2216636400EB027C /* ViewController.swift */,
+				424919912216665700EB027C /* Cell.swift */,
 				424919802216636400EB027C /* Main.storyboard */,
 				424919862216636500EB027C /* Assets.xcassets */,
 				424919882216636500EB027C /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4249197F2216636400EB027C /* ViewController.swift in Sources */,
+				424919922216665700EB027C /* Cell.swift in Sources */,
 				424919852216636400EB027C /* ImageCollectionView.xcdatamodeld in Sources */,
 				4249197D2216636400EB027C /* AppDelegate.swift in Sources */,
 			);
